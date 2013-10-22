@@ -16,7 +16,7 @@ goto end
 )
 
 :closecomputer
-shutdown  /s /t 120 /c "Fail to ping 10.10.168.1 ,computer will shutdown in 120s. Cancel command: shutdown /a"
+shutdown  /s /t 100 /c "Fail to ping 10.10.168.1 ,computer will shutdown in 100s. Cancel command: shutdown /a"
 
 :end
 exit
